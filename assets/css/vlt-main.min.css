@@ -2433,6 +2433,37 @@ body .pp-scrollable {
   color: var(--p1);
 }
 
+.mouse-helper {
+  z-index: 1;
+  text-align: center;
+}
+
+.mouse-helper span {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.mouse-helper {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: 3em;
+  font-size: 0.7em;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.scroll-mouse {
+  color: var(--p1);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
 /* Services Section */
 /* <div
           class="vlt-section pp-scrollable"
